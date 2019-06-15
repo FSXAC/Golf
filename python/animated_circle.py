@@ -2,11 +2,10 @@ import curses,math
 def c(s,r):
  h,w=s.getmaxyx()
  s.clear()
- def f(x,y):
-  for p in zip([y,y,-y,-y,x,x,-x,-x],[x,-x,x,-x,y,-y,y,-y]):s.addstr(h//2+p[0],w//2+p[1],'*')
  x,y,d=0,r,3-2*r
  while x<y:
-  f(int(x),int(y))
+  a,b=int(x),int(y)
+  for p in zip([b,b,-b,-b,a,a,-a,-a],[a,-a,a,-a,b,-b,b,-b]):s.addstr(h//2+p[0],w//2+p[1],'*')
   x+=1
   if d>0:y,d=y-1,d+4*(x-y)+10
   else:d+=4*x+6
