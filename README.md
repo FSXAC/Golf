@@ -10,4 +10,4 @@ Code golfing for fun.
 
 | File | Size (bytes) | Description |
 |:--- | ---:|:--- |
-| animated_circle.py | 394 | A breathing circle; press `1` to quit |
+| animated_circle.py | 381 | A breathing circle; press `1` to quit |
