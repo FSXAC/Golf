@@ -1,8 +1,7 @@
 import curses,math
 def c(s,r):
- h,w=s.getmaxyx()
  s.clear()
- x,y,d=0,r,3-2*r
+ x,y,d,h,w=0,r,3-2*r,*s.getmaxyx()
  while x<y:
   a,b,x=int(x),int(y),x+1
   for p in zip([b,b,-b,-b,a,a,-a,-a],[a,-a,a,-a,b,-b,b,-b]):s.addstr(h//2+p[0],w//2+p[1],'*')
