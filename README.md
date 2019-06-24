@@ -11,4 +11,5 @@ Code golfing for fun.
 | File | Size (bytes) | Description |
 |:--- | ---:|:--- |
 | animated_circle.py | 381 | A breathing circle; press `1` to quit |
+| pong.py | 605 | A simple pong game. Use `w` and `s` to control the left paddle and Up & Down arrow to control the right paddle. Press `1` to quit |
 | waffle.py | 115 | Makes a filled circle of any size |
