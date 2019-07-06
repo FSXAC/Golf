@@ -13,4 +13,5 @@ Code golfing for fun.
 | animated_circle.py | 363 | A breathing circle; press `1` to quit |
 | pong.py | 545 | A simple pong game. Use `w` and `s` to control the left paddle and Up & Down arrow to control the right paddle. Press `1` to quit |
 | reaction.py | 566 | Test your reaction time by using `.` (period) key to interact; use `Esc` to quit |
+| tempo.py | 332 | Continously tap any key on the keyboard to sample tempo; press `Esc` to quit |
 | waffle.py | 115 | Makes a filled circle of any size |
